@@ -1,0 +1,1 @@
+Audio files must be in the Audio folder and scripts in the scripts folder.

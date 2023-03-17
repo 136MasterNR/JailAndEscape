@@ -1,0 +1,37 @@
+                                     - R E A D   M E -
+                                  (THIS FILE IS OUTDATED)
+Hey, if you didn't notice, this is the read me file. If you are curious about how things work, read it.
+
+For any issues or bugs you can contact us at our discord "https://discord.gg/Qst63njdBG".
+
+- - AUTO SAVING - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+This game has AUTO-SAVING,
+The DATA of this program are saved on this location: "C:\Users\Nick\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE".
+If this is the first time you use a Game or a Program from HTS, then you will notice
+that there was added a new folder called HTS_DATA on your APPDATA. Everything you use from HTS
+that includes a saving system will be using that directory. Touching these files may cause problems.
+You can clear all Saved Data by the command "clear saves" at the Settings. This will not reset any
+of the settings or delete any of its files.
+How it works: Every time you make progress, a save file will appear in the saves directory.
+
+- - SETTINGS LAYOUT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+You can find the settings by the command "SETT" or "SETTINGS" at the menu.
+The settings are saved on this location:
+> "C:\Users\Nick\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE-A0.430\SETTINGS"
+
+You can turn off sounds by the Settings, type "sounds" to toggle.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- - AUDIO MANAGER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Includes audio. Read the changelog for tons of more information about it.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+- - HOW TO UNINSTALL? - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Type uninstall in the menu. This will delete saves, settings and tmp files and will clear the game
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+POSSIBLE ERRORS:
+- ERROR_HANDLE_EOF - REACHED THE END OF THE FILE (DIDN'T FOLLOW THE LAYOUT)
+- ERROR_BAD_FORMAT - THE PROGRAM WAS NOT READY TO LAUNCH (MISSING FILES OR UNABLE TO START-IN)
+- ERROR_OLD_WIN_VERSION - THE SPECIFIED PROGRAM REQUIRES A NEWER VERSION OF WINDOWS. (MAKE SURE YOU ARE USING WINDOWS 10)
+

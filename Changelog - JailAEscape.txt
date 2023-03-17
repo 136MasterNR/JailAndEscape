@@ -1,0 +1,98 @@
+Current Jail&Escape Version: A.430.0
+
+(!) Short Version:
+
+   Rewrote the whole audio management and the audio directors, added a script for the waiting time, all the data of
+   the game is now located in just a folder instead of being a mess, added more story, fixed TONS of bugs, added a
+   new setting "volume", added a License, added a Credits section, it now supports Winows 7, 8, 8.1 and 10.
+
+(!) Big Version:
+
+-< >- Major Updates -< >-
+1. Continued the story:
+ - Added a new part in the story which is called "ENDLESS-ROOM. PART:II",
+   which is in the story "A Horror Dream" between the parts "WHATCHA-COOKIN'? PART:I" and "THE|REDROOM. PART:III"
+
+2. Completely changed the way audio works:
+ - Changed directories for the Audio Files
+   Music and Sound Effects files are no longer messed in the game's main directory.
+   They now have their own folder, located on "data/audio/..." and they are well
+   organized.
+ - No longer creates extra VBS files and no longer messes the game's main directory
+   The AudioManager and the DirectAudio managers no longer use pre-made files,
+   they now make a temp file located in "data/temp/[Temp File]" and deletes it after
+   the audio was played. That also shorts the startup, it no longer has to create extra VBS
+   files or check if they exist, the whole process is deleted.
+ - Replaced the Sounds Manager with a new version of it called the Audio Manager and the DirectAudio manager.
+   The Audio Manager now cooperates with the DirectAudio managers. The DirectAudio
+   managers play the audio, and the Audio Manager checks if the game is still running and if
+   audio should be playing at the moment. It is now well-made and with my latest knowledge.
+   These 2 are programs, and they will appear on your taskbar inside the game's task, hovering
+   over will show to you 2 more CMD scripts which are called "AudioManager"and "wscript.exe".
+   wscript.exe is the DirectAudio.
+
+3. Changed all the data & file locations.
+ - The files are no longer messed up in the game's directory, we instead added a single folder and put everything inside it.
+   The folder is called "data" located in the game's directory, inside it are category folders and all the required files.
+ - The audio files are located in "data > audio", the folder "sys" is audio for the system such as the startup. The numeric
+   folders are for the ingame stories.
+ - Files such as scripts and images are located in this "data > files"
+ - The temp folder keeps temporally files, located in "data > temp"
+ - Logs are aswell located in "data > logs"
+
+4. Added a new setting Volume:
+ - You can now control the volume of the audio for this program by the settings.
+   Typing "volume [number]" will change the volume. It can be any number from 20 until 100.
+   Adjusting the volume to a higher number than 100 (e.g. 300) will automatically adjust it to 100.
+   Adjusting the volume to 0 will automatically turn off the sounds.
+   WARNING: THIS IS AN ALPHA, ADJUSTING THE VOLUME LOWER THAN 80% IS NOT RECOMMENDED.
+
+5. The menu and startup audio were renewed.
+6. Added a license which you are required to read and agree to, it will popup once per first-use.
+7. Added the credits section, check them by typing "credits" in the menu.
+8. Created a new HTS startup animation. Toggling the Text Animations option will show the old animation's single frame.
+
+-< >- System Updates -< >-
+1. In the settings, "FAST SETTINGS" option will no longer turn off the sounds, but typing "QU" will.
+2. Windows Media Player 6.4 or 7.0 must be installed on your device or else audio will turn off automatically and
+   will no longer be possible to toggle them in the settings
+3. The UPDATER will no longer take the information of the latest update if the information was not recognized.
+   This was added for security reasons and because it caused crashes if GITHUB was down or it was unable to take
+   any information.
+4. In the settings, if your device doesn't support the requirements for the audio (such as missing required applications)
+   you won't be able to toggle the audio and will be marked as "LOCKED" with a popup error if you try to toggle it.
+5. Now supports Windows 7, Windows 8 and Windows 8.1 aswell.
+7. Changed the waiting with a script instead of pinging your network and having an unstable waiting.
+8. In the first-use startup, it will no longer popup the read me file but instead require you to agree to our license.
+9. Added logs. NOTE: Feature yet not finished.
+
+-< >- Notices/Small Changes -< >-
+1. In the startup logs, it will no longer write "Loading Variables" and the word "PING" is now replaced to "NETWORK"
+2. The volume was decreased by 15%.
+3. Entering literally nothing will no longer take the output as EMPTY but as literally nothing.
+4. Added some aliases for some commands: Uninstall:Uinstalls the game, deletedata & deletesaves:Resets your saves
+5. The logo resolution is now 350x350 which looks much cleaner instead of 128x128 which looked very pixelated.
+6. In the settings, the option "sounds" was replaced with "audio", but you still can use "sounds" as an alias.
+7. It will now write "Loading game..." whenever you type play.   
+8. Completely deleted the old colored texts system, everything is now replaced with the newest colored texts system
+   which is much faster and simplier in code.
+9. The changelog is no longer located in the READ ME file.
+
+-< >- Bugs & Fixes -< >-
+1. Fixed lines becoming invisible or broken layouts.
+2. The updater was unable to access update information on some devices.
+3. In the startup, it will now check if Images and Scripts exist too, instead of only checking for the audio files.
+
+-< >- Our Latest Decisions -< >-
+1. The Horror storyline is now called "A Horror Dream", we decided it instead of "A Nightmare"
+2. The begenning where you choose your story is now called "the Prison Gift"
+
+-< >- What is in BETA -< >-
+1. The storyline "ENDLESS-ROOM. PART:II" is yet unfinished. Expecting to finish it in the release v0.460.
+2. Achievements - You can test the beta achievements by going in the settings and typing "UNLOCKACHIEVEMENT"
+3. (PROTOTYPE) DLC - You cannot test the DLC yet, but the prototype of the code exists in the game files.
+
+-< >- In Work of Progress -< >-
+1. In the story ENDLESS ROOM, the doors will be randomized.
+
+-< >- Thanks you for passing by this Changelog! -< >-
