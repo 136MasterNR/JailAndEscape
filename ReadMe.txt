@@ -6,7 +6,7 @@ For any issues or bugs you can contact us at our discord "https://discord.gg/Qst
 
 - - AUTO SAVING - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 This game has AUTO-SAVING,
-The DATA of this program are saved on this location: "C:\Users\Nick\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE".
+The DATA of this program are saved on this location: "\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE".
 If this is the first time you use a Game or a Program from HTS, then you will notice
 that there was added a new folder called HTS_DATA on your APPDATA. Everything you use from HTS
 that includes a saving system will be using that directory. Touching these files may cause problems.
@@ -17,7 +17,7 @@ How it works: Every time you make progress, a save file will appear in the saves
 - - SETTINGS LAYOUT - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 You can find the settings by the command "SETT" or "SETTINGS" at the menu.
 The settings are saved on this location:
-> "C:\Users\Nick\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE-A0.430\SETTINGS"
+> "\AppData\Roaming\HTS_DATA\JAILPLUSESCAPE-A0.430\SETTINGS"
 
 You can turn off sounds by the Settings, type "sounds" to toggle.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
